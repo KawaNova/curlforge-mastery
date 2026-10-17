@@ -1,0 +1,55 @@
+【タイトル】
+cURLコードジェネレータ - APIリクエスト変換 ＆ コード即時生成
+
+【簡単な説明】(80文字以内)
+cURLをPython, JS, Go, Kotlin等へ即時変換！GUIリバースビルダー＆実務プリセット搭載
+
+【詳細な説明】
+APIテストや開発中にコピーした cURL コマンドを、各プログラミング言語・ライブラリの実行可能コードへワンタップで即座に変換！
+CurlForge（cURLコードジェネレータ）は、バックエンドエンジニア、フロントエンド開発者、モバイルアプリエンジニア、インフラ管理者のための強力な開発支援ツールです。
+
+完全オンデバイス処理のため、APIキーやBearerトークン、社内エンドポイントのURLが外部サーバーへ送信されることは一切ありません。安心・安全にプライベートなAPIリクエストを変換できます。
+
+━━━━━━━━━━━━━━━━━━━
+■ CurlForge の主要機能
+━━━━━━━━━━━━━━━━━━━
+
+【1】10種類以上の主要言語・HTTPクライアントへ瞬時変換
+コピーした cURL コマンドを貼り付けるだけで、構文解析を行い各言語のベストプラクティスコードを生成します。
+・Python: requests, httpx (async / asyncio)
+・JavaScript / TypeScript: Fetch API, Node.js Axios
+・Go: net/http
+・Kotlin: OkHttp, Ktor Client
+・PHP: cURL (curl_exec)
+・Java 11+: java.net.http.HttpClient
+・Rust: reqwest (tokio async)
+
+【2】リバースGUIビルダー (双方向同期)
+フォーム入力（HTTPメソッド、URL、カスタムヘッダー、JSONボディ、Basic認証、リダイレクト設定）から cURL コマンドを逆生成。変更内容はリアルタイムに cURL コマンドと各ターゲットコードへ反映されます。
+
+【3】実務ですぐ使える API プリセット
+・OpenAI API: GPT-4o / GPT-4o-mini チャット補完リクエスト
+・GitHub REST API: 認証ユーザープロファイル取得
+・Stripe API: PaymentIntent (決済インテント) 作成
+・Slack Webhook: チャンネル通知メッセージ送信
+・GraphQL: Countries API へのクエリ送信
+・OAuth 2.0: Client Credentials トークン発行
+・Open-Meteo: 認証不要のリアルタイム気象データ取得
+・JSONPlaceholder: モックRESTテスト
+
+【4】cURL オプション＆フラグ完全辞典
+-X, -H, -d, --data-raw, -u, -L, -i, -I, -s, -S, -v, -o, -k, -A, -m, --connect-timeout, -F, -b, -c, --compressed など、実務で頻出する30以上の主要フラグの日本語解説と使用例を網羅。
+
+【5】スニペット保存＆お気に入り
+よく使うAPIリクエストにタイトルとメモを付けてローカル保存。いつでもワンタップでエディタに復元し、再利用やコード生成が可能です。
+
+━━━━━━━━━━━━━━━━━━━
+■ こんな方・シチュエーションにおすすめ
+━━━━━━━━━━━━━━━━━━━
+・ブラウザの開発者ツール (DevTools) の「Copy as cURL」から Python や JS コードを即座に書き起こしたい方
+・Postman や Swagger からコピーしたリクエストをアプリ内実装コードに落とし込みたい方
+・APIドキュメントの cURL サンプルを自分のプロジェクト言語へ素早く移植したい方
+・cURL のコマンドラインオプションの意味や使い分けをサッと調べたい方
+・外出先やスマートフォン上で API リクエストの仕様確認・コード作成を行いたいエンジニア
+
+通信不要・完全ローカル動作の軽量＆高機能 cURL ツールで、日々の API 開発スピードを圧倒的に加速させましょう！

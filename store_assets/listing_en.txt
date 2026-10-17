@@ -1,0 +1,55 @@
+[Title]
+CurlForge - cURL to Python, JS, Go, Kotlin & PHP
+
+[Short Description] (within 80 chars)
+Convert cURL commands to Python, JS, Go, Kotlin, PHP & Rust. 100% on-device tool.
+
+[Full Description]
+Instantly convert cURL commands into clean, idiomatic code for Python, JavaScript, Go, Kotlin, PHP, Java, and Rust!
+CurlForge is an essential developer utility built for backend engineers, frontend developers, mobile coders, and DevOps specialists.
+
+All parsing and code generation run 100% locally on your device. Your sensitive API keys, auth bearer tokens, and private internal endpoints are never transmitted to any external server.
+
+━━━━━━━━━━━━━━━━━━━
+Key Features
+━━━━━━━━━━━━━━━━━━━
+
+[1] Multi-Language & Framework Code Generation
+Simply paste any cURL command copied from Chrome DevTools, Postman, or API documentation. CurlForge parses the syntax and produces production-ready snippets for:
+• Python: requests, httpx (asyncio)
+• JavaScript / TypeScript: Fetch API, Node.js Axios
+• Go: net/http
+• Kotlin: OkHttp, Ktor Client
+• PHP: cURL (curl_exec)
+• Java 11+: java.net.http.HttpClient
+• Rust: reqwest (tokio)
+
+[2] Visual Reverse Request Builder
+Need to construct a cURL request from scratch? Use the visual builder to configure HTTP methods (GET, POST, PUT, DELETE, PATCH), URL, headers, JSON body, basic auth, timeouts, and redirects. Changes update the cURL command and code snippets in real-time.
+
+[3] Practical API Request Presets
+Jumpstart your development with ready-to-use templates:
+• OpenAI API: GPT-4o / GPT-4o-mini chat completions
+• GitHub REST API: Authenticated user profile lookup
+• Stripe API: Create PaymentIntent
+• Slack Webhook: Post channel notifications
+• GraphQL: Query countries and capitals
+• OAuth 2.0: Client credentials token request
+• Open-Meteo: Real-time weather forecast (no API key needed)
+• JSONPlaceholder: Mock REST CRUD testing
+
+[4] Comprehensive cURL Flags & Options Glossary
+Master command-line HTTP with clear explanations and examples for over 30 essential cURL flags: -X, -H, -d, --data-raw, -u, -L, -i, -I, -s, -S, -v, -o, -k, -A, -m, --connect-timeout, -F, -b, -c, --compressed, and more.
+
+[5] Local Snippet Library
+Bookmark frequently used API requests with custom titles and notes. Restore them to the editor with a single tap whenever you need them.
+
+━━━━━━━━━━━━━━━━━━━
+Who is this for?
+━━━━━━━━━━━━━━━━━━━
+• Developers who frequently "Copy as cURL" from browser DevTools and need clean Python or JS code.
+• Engineers testing REST APIs and porting requests between different codebases.
+• Programmers studying HTTP protocols and cURL options.
+• Anyone looking for a secure, offline, privacy-first API code generator.
+
+Supercharge your API development workflow with CurlForge today!
