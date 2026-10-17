@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.sp
 import com.kawanova.curlforge.data.HeaderItem
 import com.kawanova.curlforge.data.HttpMethod
 import com.kawanova.curlforge.data.TargetLanguage
+import com.kawanova.curlforge.ui.components.AboutAppDialog
 import com.kawanova.curlforge.ui.components.AdaptiveBannerAd
 import com.kawanova.curlforge.ui.components.SisterAppsBanner
 import com.kawanova.curlforge.ui.theme.*
@@ -44,6 +45,7 @@ fun CurlConverterScreen(
     val uiState by viewModel.uiState.collectAsState()
     val context = LocalContext.current
     var showSaveDialog by remember { mutableStateOf(false) }
+    var showAboutDialog by remember { mutableStateOf(false) }
     var saveTitleInput by remember { mutableStateOf("") }
     var saveNoteInput by remember { mutableStateOf("") }
 
@@ -133,6 +135,20 @@ fun CurlConverterScreen(
                                     Icons.AutoMirrored.Filled.MenuBook,
                                     contentDescription = "Glossary",
                                     tint = CurlCyan,
+                                    modifier = Modifier.size(18.dp)
+                                )
+                            }
+                            IconButton(
+                                onClick = { showAboutDialog = true },
+                                modifier = Modifier
+                                    .size(36.dp)
+                                    .clip(RoundedCornerShape(8.dp))
+                                    .background(Slate800)
+                            ) {
+                                Icon(
+                                    Icons.Default.Info,
+                                    contentDescription = "About & Feedback",
+                                    tint = Slate200,
                                     modifier = Modifier.size(18.dp)
                                 )
                             }
@@ -703,6 +719,12 @@ fun CurlConverterScreen(
                 }
             },
             containerColor = Slate900
+        )
+    }
+
+    if (showAboutDialog) {
+        AboutAppDialog(
+            onDismissRequest = { showAboutDialog = false }
         )
     }
 }
